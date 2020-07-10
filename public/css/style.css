@@ -1,0 +1,49 @@
+p {
+  margin: 10px 0 !important;
+}
+html {
+  background: slategrey;
+  /* font-family: "Duru Sans", sans-serif !important; */
+  /*background: #666600 !important;  fallback for old browsers */
+  /* background: -webkit-linear-gradient( */
+  /* to right, */
+  /* #999966, */
+  /* #666600 */
+  /*) !important;  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient( */
+  /* to right, */
+  /* #999966, */
+  /* #666600 */
+  /*) !important  ;  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.login-container {
+  width: 70%;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+}
+.fa-small {
+  font-size: 16px !important;
+}
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+.img-small {
+  width: 180px;
+}
+
+#toast-container {
+  top: 10% !important;
+  right: 50% !important;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
+  .login-container {
+    width: 50%;
+  }
+}
